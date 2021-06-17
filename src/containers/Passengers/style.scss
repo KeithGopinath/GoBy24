@@ -10,6 +10,11 @@
     box-shadow: 0 0 5px;
     border-radius: 15px;
     text-align: center;
+
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+      margin: 13%;
+    }
   }
 
   .title {
@@ -20,12 +25,10 @@
   .sub-text {
     font-size: 14px;
     margin: 10px;
-    // padding: 10px;
   }
 
   .city-btn {
     color: black;
-
   }
 
   ::-webkit-input-placeholder {
@@ -83,32 +86,29 @@
     position: relative;
   }
 
-
   //right
   .right-pass {
 
-    // width: 85%;
-    // margin: auto;
     .status {
       margin: 20%;
       padding: 5%;
       box-shadow: 0 0 5px;
       border-radius: 15px;
       text-align: center;
+
+      &:hover {
+        box-shadow: 0 4px 1rem -4px #000;
+        margin: 18%;
+      }
     }
-
-
   }
 
   .form-check {
     text-align: left;
-
-
   }
 
   .status-butns {
     margin: auto;
-
   }
 
   .modal-button {
@@ -117,8 +117,6 @@
     padding: 5px 14px;
     background: #00AEEF;
     border-color: transparent;
-    // box-shadow: 0 0 5px;
-    border-radius: 30px;
   }
 }
 
@@ -154,11 +152,17 @@
   background: #00AEEF;
   border-color: transparent;
   box-shadow: 0 0 5px;
-  border-radius: 30px;
 
   :hover {
     color: #fff;
     background-color: #0b5ed7;
     border-color: #0a58ca;
   }
+}
+
+.card {
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1000ms ease-in-out;
 }

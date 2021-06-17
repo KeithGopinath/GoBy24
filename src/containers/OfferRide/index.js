@@ -11,7 +11,7 @@ const OfferRide = () => (
     <Row>
       <Col lg={6} md={12}>
         <div className="left-login">
-          <div className="card ">
+          <div className="offer card">
             <div className="input-label">
               <label className="input-label">Pick Up</label>
               <FontAwesomeIcon icon={faSearch} className="search" />

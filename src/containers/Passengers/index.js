@@ -65,7 +65,7 @@ const Passengers = () => {
         </Col>
         <Col md={5}>
           <div className="right-pass">
-            <div className="status">
+            <div className="status card">
               <Row>
                 <Col lg={7} md={12} sm={7} xs={12}>
                   <div>

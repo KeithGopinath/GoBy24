@@ -1,13 +1,15 @@
 .offer-ride {
 
-  .card {
-    margin: 30px;
+  .offer {
+    margin: 3%;
     top: 100px;
     padding: 15px 30px;
     border-radius: 15px;
-    box-shadow: 0 0 5px;
-    //box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 0 0 0 1px rgb(63 63 68 / 10%);
     background-color: #ffffff;
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+     margin: 1%;
+  }
   }
 
   .left-login {
@@ -83,8 +85,3 @@
     margin-top: 20px;
   }
 }
-// .card{
-//   display: block;
-//   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-//   margin-top: -10px;
-// }
