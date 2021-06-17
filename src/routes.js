@@ -1,20 +1,20 @@
 import React from 'react';
 import { createBrowserHistory } from 'history';
-import { Router, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import { Router, Switch, Route } from 'react-router-dom';
+import OfferRide from './containers/OfferRide';
+import HeaderBar from './components/HeaderBar';
+import Passengers from './containers/Passengers';
 
 export const history = createBrowserHistory();
 
 const Routes = () => (
   <Router history={history}>
     <React.Fragment>
-      <Header />
+      <HeaderBar />
       <Switch>
-        {/* <Route exact path="/" component={ContactsContainer} />
-        <Route path={RouteConstants.CONTACTS} component={ContactsContainer} /> */}
+        <Route exact path="/offerride" component={OfferRide} />
+        <Route exact path="/passengers" component={Passengers} />
       </Switch>
-      <Footer />
     </React.Fragment>
   </Router >
 );

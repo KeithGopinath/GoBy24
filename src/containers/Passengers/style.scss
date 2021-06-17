@@ -1,0 +1,164 @@
+.passengers {
+  .left-pass {
+    width: 90%;
+    margin: auto;
+  }
+
+  .extra {
+    margin: 15%;
+    padding: 2% 10% 10% 10%;
+    box-shadow: 0 0 5px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 20px;
+
+  }
+
+  .sub-text {
+    font-size: 14px;
+    margin: 10px;
+    // padding: 10px;
+  }
+
+  .city-btn {
+    color: black;
+
+  }
+
+  ::-webkit-input-placeholder {
+    color: grey;
+    left: 20px;
+    position: relative;
+    font-size: 14px;
+    opacity: .3;
+  }
+
+  input[type="checkbox"i] {
+    border-radius: 15px;
+  }
+
+  .title {
+    top: 10px;
+    margin: 8px;
+    position: relative;
+  }
+
+  .input-title {
+    top: 20px;
+    position: relative;
+  }
+
+  .radio-butns {
+    top: 40px;
+    margin: 0px;
+    position: relative;
+    border-top: 1px solid;
+
+    label {
+      padding: 12px 6px;
+      width: 100%;
+      font-size: 14px;
+      display: block;
+      text-align: left;
+      cursor: pointer;
+      position: relative;
+      border-bottom: 1px solid;
+    }
+
+    .checkmark {
+      float: right;
+      width: 17px;
+      height: 17px;
+      border-radius: 15px;
+    }
+  }
+
+  .pass-butn {
+    top: 30px;
+    /* margin: 10%; */
+    margin-top: 15%;
+    position: relative;
+  }
+
+
+  //right
+  .right-pass {
+
+    // width: 85%;
+    // margin: auto;
+    .status {
+      margin: 20%;
+      padding: 5%;
+      box-shadow: 0 0 5px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+
+  }
+
+  .form-check {
+    text-align: left;
+
+
+  }
+
+  .status-butns {
+    margin: auto;
+
+  }
+
+  .modal-button {
+    cursor: pointer;
+    font-size: 13px;
+    padding: 5px 14px;
+    background: #00AEEF;
+    border-color: transparent;
+    // box-shadow: 0 0 5px;
+    border-radius: 30px;
+  }
+}
+
+//commn use
+.form-control {
+  border: 1px solid #e3e3e3;
+  border-radius: 7px;
+  background: #F2F2F2;
+  padding: 8px 12px;
+  height: 38px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 1px #28a4d9 !important;
+  border-color: #28a4d9;
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  color: grey;
+  left: 20px;
+  position: relative;
+  font-size: 14px;
+  opacity: .3;
+}
+
+.conti-button {
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  padding: 7px 14px;
+  width: 100%;
+  background: #00AEEF;
+  border-color: transparent;
+  box-shadow: 0 0 5px;
+  border-radius: 30px;
+
+  :hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+}

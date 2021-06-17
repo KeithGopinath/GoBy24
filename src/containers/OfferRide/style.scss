@@ -1,0 +1,90 @@
+.offer-ride {
+
+  .card {
+    margin: 30px;
+    top: 100px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px;
+    //box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 0 0 0 1px rgb(63 63 68 / 10%);
+    background-color: #ffffff;
+  }
+
+  .left-login {
+    width: 70%;
+    margin: auto;
+    bottom: 45px;
+    position: relative;
+    text-align: center;
+  }
+
+  .right-map {
+    width: 90%;
+    margin: auto;
+  }
+
+  .input-label {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .radio-list {
+    top: 35px;
+    position: relative;
+    margin: 0px 15px 40px 15px;
+    border-top: 1px solid black;
+
+    .radio-title {
+      font-size: 20px;
+      margin: 30px 0px 0px;
+    }
+
+    .radio-butn {
+      font-family: Poppins;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin-right: 15px;
+    }
+
+    .radio-circle {
+      margin: 20px;
+      top: 6px;
+      position: relative;
+      width: 25px;
+      height: 23px;
+      left: 40px;
+    }
+  }
+
+  .offer-butn {
+    margin: 23px 0px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: #00AEEF;
+    color: white;
+  }
+
+  .search {
+    font-size: 15px;
+    float: left;
+    top: 61px;
+    left: 10px;
+    position: relative;
+    opacity: 0.4;
+  }
+
+  .butn {
+    margin-top: 20px;
+  }
+}
+// .card{
+//   display: block;
+//   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+//   margin-top: -10px;
+// }

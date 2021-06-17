@@ -1,0 +1,28 @@
+ .header-bar{
+ .nava-bar {
+  border: 1px solid black;
+  color:black;
+  padding: 0px;
+}
+.logo{
+  width: 50%;
+  left: 50px;
+  position: relative;
+}
+.nav-search{
+  font-size: 21px;
+  margin: -1px 8px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #00AEEF;
+  font-size: 13px;
+}
+.nav-user{
+font-size:45px;
+color:grey;
+ }
+ .dropdown-toggle::after {
+  font-size:20px;
+  color:black;
+ }
+}
