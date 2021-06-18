@@ -1,14 +1,15 @@
 /* eslint-disable */
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import Header from '../../components/Header';
 import GoogleMap from '../../components/Map';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-
 const OfferRide = () => (
   <div className="offer-ride">
     <Row>
+      <Header />
       <Col lg={6} md={12}>
         <div className="left-login">
           <div className="offer card">
@@ -59,7 +60,6 @@ const OfferRide = () => (
           </div>
         </div>
       </Col>
-
     </Row>
   </div>
 );

@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faGift, faPlusCircle, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
-const HeaderBar = () => (
+const Header = () => (
   <div className="header-bar">
     <Navbar className="nava-bar" collapseOnSelect expand="lg">
       <Navbar.Brand href="#home">
@@ -39,4 +39,4 @@ const HeaderBar = () => (
   </div>
 );
 
-export default HeaderBar;
+export default Header;

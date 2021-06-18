@@ -3,19 +3,19 @@ import React from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 const mapStyles = {
-  width: '50vh',
-  height: '500px',
+  width: '100%',
+  height: '100%',
 };
 
 const GoogleMap = ({ google }) => (
   <Map
     google={google}
-    zoom={8}
+    zoom={7}
     style={mapStyles}
-    defaultCenter={{ lat: -34.397, lng: 150.644 }}
-    // initialCenter={{ lat, lng }}
+    // defaultCenter={{ lat: 20.5937, lng: 150.644 }}
+    initialCenter={{ lat: 40.854885, lng: -88.081807 }}
   >
-    <Marker position={{ lat: -34.397, lng: 150.644 }} />
+    <Marker position={{ lat: 40.854885, lng: -88.081807 }} />
   </Map>
 );
 
