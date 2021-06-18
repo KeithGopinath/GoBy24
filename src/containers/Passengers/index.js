@@ -2,11 +2,12 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Steps } from 'antd';
-
-const { Step } = Steps;
+import Header from '../../components/Header';
 
 const Passengers = () => {
   const [currents, setCurrents] = useState('');
+
+  const { Step } = Steps;
 
   const onCurrents = (currents) => {
     setCurrents(currents)
@@ -15,6 +16,7 @@ const Passengers = () => {
   return (
     <div className="passengers">
       <Row>
+        <Header />
         <Col md={7}>
           <div className="left-pass">
             <div className="extra card">

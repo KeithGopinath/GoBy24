@@ -1,10 +1,10 @@
 /*eslint-disable*/
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import CalendarDate from '../../components/Calendar';
 import { TimePicker } from 'antd';
 import moment from 'moment';
-
+import Header from '../../components/Header';
+import CalendarDate from '../../components/Calendar';
 
 const Booking = () => {
   // const [value, setValue] = useState(null);
@@ -19,6 +19,7 @@ const Booking = () => {
   return (
     <div className="booking-calendar" >
       <Row>
+        <Header />
         <Col sm={12}>
           <div className="title">
             <span>
@@ -54,4 +55,5 @@ const Booking = () => {
     </div >
   );
 }
+
 export default Booking;
