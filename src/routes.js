@@ -4,6 +4,7 @@ import { Router, Switch, Route } from 'react-router-dom';
 import OfferRide from './containers/OfferRide';
 // import HeaderBar from './components/HeaderBar';
 import Passengers from './containers/Passengers';
+import DateTime from './containers/DateTime';
 
 export const history = createBrowserHistory();
 
@@ -14,6 +15,7 @@ const Routes = () => (
       <Switch>
         <Route exact path="/offerride" component={OfferRide} />
         <Route exact path="/passengers" component={Passengers} />
+        <Route exact path="/datetime" component={DateTime} />
       </Switch>
     </React.Fragment>
   </Router >

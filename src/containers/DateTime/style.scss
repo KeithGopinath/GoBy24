@@ -1,0 +1,116 @@
+.booking-calendar {
+  margin: auto;
+  text-align: center;
+
+  .title {
+    position: relative;
+    margin: 15px;
+    padding: 20px;
+
+    span {
+      font-family: Rubik;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: -0.3333333432674408px;
+    }
+  }
+
+  .calendar-date {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    border: transparent;
+  }
+
+  .react-calendar__viewContainer {
+    margin: 2%;
+    border: 1px solid #a0a096;
+    border-radius: 15px;
+    background: #fff;
+    width: fit-content;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+      border-radius: 15px;
+      margin: 0;
+    }
+  }
+
+  .react-calendar {
+    border-color: transparent;
+  }
+
+  .react-calendar__navigation {
+    height: 44px;
+    margin-bottom: 4em;
+  }
+
+  .react-calendar__navigation__label__labelText {
+    color: #00AEEF;
+    font-family: Rubik;
+    font-size: 25px;
+    line-height: 41px;
+    letter-spacing: -0.3333333432674408px;
+
+
+    :hover {
+      background-color: transparent;
+    }
+
+  }
+
+  .react-calendar__navigation button:enabled:hover,
+  .react-calendar__navigation button:enabled:focus {
+    background-color: #e6e6e6;
+  }
+
+  .react-calendar__month-view__weekdays {
+    color: #00AEEF;
+    font-weight: 600;
+    margin: 19px 0px 3px 1px;
+    border-bottom: 1px solid #a0a096;
+  }
+
+  .react-calendar__navigation__arrow react-calendar__navigation__prev2-button {
+    font-size: 20px;
+  }
+
+  .time-picker {
+    border-radius: 30px;
+    width: 170px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .date-button {
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    padding: 8px 130px;
+    background: #00AEEF;
+    border-color: transparent;
+    box-shadow: 0 0 5px;
+
+    :hover {
+      color: #fff;
+      background-color: #0b5ed7;
+      border-color: #0a58ca;
+    }
+  }
+
+  .time-butn {
+    top: 30px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+
+  }
+
+  .ant-picker-input>input {
+    text-align: center;
+  }
+}
