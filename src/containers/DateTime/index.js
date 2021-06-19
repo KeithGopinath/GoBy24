@@ -41,7 +41,7 @@ const Booking = () => {
           <div className="md-form">
             <TimePicker className="time-picker" defaultValue={moment((time), 'HH:mm:ss')} />
           </div>
-          <div className="time-butn">
+          <div className=" col-sm-6 col-xs-12  col-md-4 col-lg-4 time-butn">
             <button
               type="button"
               className="btn btn-primary btn-block date-button"

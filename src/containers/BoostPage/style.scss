@@ -1,0 +1,46 @@
+.boost-page {
+  .boost-left {
+    top: 50px;
+    position: relative;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+
+    .title-boost {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .img-rocket {
+      top: 50px;
+      position: relative;
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+
+  .boost-right {
+    top: 50px;
+    position: relative;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+  }
+
+  .passenger {
+    margin: 10%;
+    padding: 30px;
+    border-radius: 15px;
+
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+      border-radius: 15px;
+      margin: 8%;
+    }
+
+    .title {
+      margin: 10px;
+      padding: 5px 10px 20px;
+    }
+  }
+}

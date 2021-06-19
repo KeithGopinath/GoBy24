@@ -1,0 +1,151 @@
+.price-page {
+  .price-list {
+    text-align: center;
+  }
+
+  .title {
+    position: relative;
+    padding: 15px;
+    margin: 2% 21%;
+
+    span {
+      font-family: Rubik;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: -0.3333333432674408px;
+    }
+
+    .price {
+      font-family: Rubik;
+      font-size: 40px !important;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: -0.3333333432674408px;
+    }
+
+    .per-seat {
+      font-family: Rubik;
+      font-size: 15px !important;
+      font-weight: 700;
+      line-height: 41px;
+      letter-spacing: -0.3333333432674408px;
+    }
+  }
+
+  .perlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 7%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px;
+    border-radius: 15px;
+    padding: 30px;
+
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+    }
+
+    .sub-title {
+      position: relative;
+      padding: 15px;
+
+      .per-seat {
+        font-family: Rubik;
+        font-size: 20px !important;
+        font-weight: 700;
+        letter-spacing: -0.3333333432674408px;
+      }
+
+      .butnprice {
+        width: 100%;
+        margin: auto;
+        padding: 6px;
+        width: 100%;
+        text-align: left;
+        padding: 7px;
+        margin: 12px 0px;
+        border-color: transparent;
+        border-radius: 10px;
+
+        &:hover {
+          background: #00AEEF;
+          color: white;
+          border-radius: 10px;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+
+  .butnlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px;
+    border-radius: 15px;
+    padding: 30px;
+
+    &:hover {
+      box-shadow: 0 4px 1rem -4px #000;
+    }
+
+    .butnprice {
+      width: 100%;
+      margin: auto;
+      padding: 6px;
+      width: 100%;
+      text-align: left;
+      padding: 7px;
+      margin: 12px 0px;
+      border-color: transparent;
+      border-radius: 10px;
+
+      &:hover {
+        background: #00AEEF;
+        color: white;
+        border-radius: 10px;
+        border-color: transparent;
+      }
+    }
+  }
+
+  .incre-decre {
+    margin-top: 10%;
+
+    .btn-primary {
+      color: #fff;
+      background: #F57F20;
+      border-color: transparent;
+      border-radius: 0px 10px;
+      padding: 3px 20px;
+    }
+
+    .input-text {
+      border-color: #F57F20;
+      width: 60px;
+      border-radius: 6px;
+    }
+  }
+
+  .sure-butn {
+    margin-top: 10%;
+
+    .butn-sure {
+      width: 100%;
+      margin: auto;
+      padding: 6px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      padding: 7px;
+      margin: 12px 0px;
+      background: #00AEEF;
+      border-color: transparent;
+      border-radius: 10px;
+    }
+  }
+}
